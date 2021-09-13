@@ -1,0 +1,15 @@
+modules:
+  jira:issuePanel:
+    - key: sentimento-hello-world-panel
+      function: main
+      title: sentimento
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/89cb4fdd-aef1-47b5-b2fa-f2d071f6cfcc
+
+permissions:
+  scopes:
+    - read:jira-work
